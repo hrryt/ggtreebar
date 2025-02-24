@@ -14,3 +14,5 @@ Imports:
   ggplot2,
   treemapify,
   dplyr
+URL: https://github.com/hrryt/ggtreebar
+BugReports: https://github.com/hrryt/ggtreebar/issues
