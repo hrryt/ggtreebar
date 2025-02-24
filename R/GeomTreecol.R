@@ -1,4 +1,4 @@
-x <- y <- area <- PANEL <- group <- NULL
+x <- y <- area <- PANEL <- NULL
 
 setup_data <- function(data, params, self = self) {
   default_aes <- names(ggplot2::GeomCol$default_aes)
