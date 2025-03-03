@@ -9,10 +9,7 @@ setup_data <- function(data, params, self = self) {
       area = list(y),
       dplyr::across(dplyr::starts_with("y"), sum),
       dplyr::across(dplyr::starts_with("subgroup"), list),
-      dplyr::across(
-        !(area | dplyr::starts_with("y") | dplyr::starts_with("subgroup")),
-        \(x) x[1]
-      ),
+      dplyr::across(!(area | dplyr::matches("^y|^subgroup")), function(x) x[1]),
       .groups = "drop"
     ) |>
     ggplot2::flip_data(params$flipped_aes)
