@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
   comment = "#>",
   fig.path = "man/figures/README-",
   out.width = "100%",
-  dpi = 120
+  dpi = 300
 )
 ```
 
@@ -18,6 +18,8 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 <!-- badges: end -->
+
+![](man/figures/README-banner.png)
 
 The goal of ggtreebar is to provide `ggplot2` geoms analogous to `geom_col()`
 and `geom_bar()` that allow for treemaps using `treemapify` nested within each

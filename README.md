@@ -6,6 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+![](man/figures/README-banner.png)
+
 The goal of ggtreebar is to provide `ggplot2` geoms analogous to
 `geom_col()` and `geom_bar()` that allow for treemaps using `treemapify`
 nested within each bar segment.
