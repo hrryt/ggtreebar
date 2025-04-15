@@ -5,7 +5,7 @@ Authors@R:
     person("Harry", "Thompson", , "harry@mayesfield.uk", role = c("aut", "cre"))
 Description: 'ggplot2' geoms analogous to 'geom_col()' and 'geom_bar()' that
     allow for treemaps using 'treemapify' nested within each bar segment.
-License: MIT + file LICENSE
+License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
@@ -13,6 +13,8 @@ Imports:
   grid,
   ggplot2,
   treemapify,
-  dplyr
+  ggfittext,
+  dplyr,
+  cli
 URL: https://github.com/hrryt/ggtreebar
 BugReports: https://github.com/hrryt/ggtreebar/issues

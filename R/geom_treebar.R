@@ -10,7 +10,6 @@
 #' of the `data`, inheriting its aesthetics, and using the `subgroup` aesthetics
 #' to determine hierarchy.
 #'
-#' @inheritSection ggplot2::geom_bar Orientation
 #' @inheritParams ggplot2::geom_bar
 #' @inheritParams treemapify::geom_treemap
 #' @param stat Override the default connection between `geom_treebar()` and
@@ -29,7 +28,7 @@
 #' * `subgroup2`
 #' * `subgroup3`
 #'
-#' `geom_col()` understands the following aesthetics
+#' `geom_treecol()` understands the following aesthetics
 #' (required aesthetics are in bold):
 #' * **`x`**
 #' * **`y`**
@@ -60,14 +59,14 @@
 #' * `after_stat(prop)`\cr
 #' groupwise proportion
 #'
+#' @seealso [geom_treebar_subgroup_border()], [geom_treebar_subgroup_text()].
+#'
 #' @examples
 #' library(ggplot2)
 #' ggplot(diamonds, aes(clarity, fill = cut, subgroup = color)) +
 #'   geom_treebar()
 #' ggplot(diamonds, aes(y = cut, fill = color, subgroup = clarity)) +
 #'   geom_treebar(position = "dodge")
-#'
-#'
 #' @export
 geom_treebar <- function (mapping = NULL, data = NULL, stat = "count",
                           position = "stack", na.rm = FALSE, show.legend = NA,

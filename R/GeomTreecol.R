@@ -30,12 +30,11 @@ draw_panel <- function(data, panel_params, coord, lineend = "butt",
       tparams[x] <- x
     }
     data <- do.call(treemapify::treemapify, tparams)
-    data$width <- data$xmax - data$xmin
-    data$height <- data$ymax - data$ymin
-    data$fill <- ggplot2::alpha(data$fill, data$alpha)
+    if(!all(is.na(data$alpha)))
+      data$fill <- ggplot2::alpha(data$fill, data$alpha)
     gl <- grid::rectGrob(
-      x = data$xmin, width = data$width,
-      y = data$ymin, height = data$height,
+      x = data$xmin, width = data$xmax - data$xmin,
+      y = data$ymin, height = data$ymax - data$ymin,
       default.units = "native",
       just = c("left", "bottom"),
       gp = grid::gpar(

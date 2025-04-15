@@ -33,8 +33,17 @@ ggplot(diamonds, aes(clarity, fill = cut, subgroup = color)) +
 <img src="man/figures/README-example-1.png" width="100%" />
 
 ``` r
+ggplot(diamonds, aes(clarity, fill = cut, subgroup = cut, subgroup2 = color)) +
+  geom_treebar() +
+  geom_treebar_subgroup_border() +
+  geom_treebar_subgroup2_text()
+```
+
+<img src="man/figures/README-example-2.png" width="100%" />
+
+``` r
 ggplot(diamonds, aes(y = cut, fill = color, subgroup = clarity)) +
   geom_treebar(position = "dodge")
 ```
 
-<img src="man/figures/README-example-2.png" width="100%" />
+<img src="man/figures/README-example-3.png" width="100%" />
