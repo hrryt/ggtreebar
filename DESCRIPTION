@@ -16,5 +16,5 @@ Imports:
   ggfittext,
   dplyr,
   cli
-URL: https://github.com/hrryt/ggtreebar
+URL: https://github.com/hrryt/ggtreebar, https://hrryt.github.io/ggtreebar/
 BugReports: https://github.com/hrryt/ggtreebar/issues
