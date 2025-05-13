@@ -6,7 +6,7 @@
 \alias{ggtreebar-package}
 \title{ggtreebar: Make Treemap Bar Charts with 'ggplot2'}
 \description{
-'ggplot2' geoms analogous to 'geom_col()' and 'geom_bar()' that allow for treemaps using 'treemapify' nested within each bar segment. Also provides geometries for subgroup bordering and text annotation.
+Provides 'ggplot2' geoms analogous to 'geom_col()' and 'geom_bar()' that allow for treemaps using 'treemapify' nested within each bar segment. Also provides geometries for subgroup bordering and text annotation.
 }
 \seealso{
 Useful links:

@@ -3,8 +3,8 @@ Title: Make Treemap Bar Charts with 'ggplot2'
 Version: 0.1.0
 Authors@R: 
     person("Harry", "Thompson", , "harry@mayesfield.uk", role = c("aut", "cre", "cph"))
-Description: 'ggplot2' geoms analogous to 'geom_col()' and 'geom_bar()' that
-    allow for treemaps using 'treemapify' nested within each bar segment.
+Description: Provides 'ggplot2' geoms analogous to 'geom_col()' and 'geom_bar()'
+    that allow for treemaps using 'treemapify' nested within each bar segment.
     Also provides geometries for subgroup bordering and text annotation.
 License: GPL (>= 3)
 Encoding: UTF-8
