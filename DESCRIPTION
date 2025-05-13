@@ -1,6 +1,6 @@
 Package: ggtreebar
 Title: Make Treemap Bar Charts with 'ggplot2'
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Harry", "Thompson", , "harry@mayesfield.uk", role = c("aut", "cre", "cph"))
 Description: 'ggplot2' geoms analogous to 'geom_col()' and 'geom_bar()' that
