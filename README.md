@@ -4,6 +4,7 @@
 # ggtreebar
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 ![](man/figures/README-banner.png)
@@ -14,11 +15,17 @@ nested within each bar segment.
 
 ## Installation
 
+You can install ggtreebar with the following command:
+
+``` r
+install.packages("ggtreebar")
+```
+
 You can install the development version of ggtreebar like so:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("hrryt/ggtreebar")
+# install.packages("pak")
+pak::pak("hrryt/ggtreebar")
 ```
 
 ## Example
