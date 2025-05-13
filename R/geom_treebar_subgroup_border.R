@@ -9,6 +9,7 @@
 #'
 #' @inheritParams ggplot2::geom_rect
 #' @inheritParams treemapify::geom_treemap_subgroup_border
+#' @returns A [ggplot2::layer()].
 #' @seealso [geom_treebar()], [geom_treebar_subgroup_text()].
 #' @examples
 #' library(ggplot2)

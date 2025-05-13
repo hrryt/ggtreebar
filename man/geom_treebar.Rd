@@ -122,6 +122,9 @@ lists which parameters it can accept.
 \link[ggplot2:draw_key]{key glyphs}, to change the display of the layer in the legend.
 }}
 }
+\value{
+A \code{\link[ggplot2:layer]{ggplot2::layer()}}.
+}
 \description{
 \code{ggplot2} geoms analogous to \code{\link[ggplot2:geom_bar]{ggplot2::geom_bar()}} and \code{\link[ggplot2:geom_bar]{ggplot2::geom_col()}}
 that allow for treemaps like with \code{\link[treemapify:geom_treemap]{treemapify::geom_treemap()}}

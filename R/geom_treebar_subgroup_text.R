@@ -11,6 +11,7 @@
 #' @inheritParams ggplot2::geom_text
 #' @inheritParams treemapify::geom_treemap_subgroup_text
 #' @seealso [geom_treebar()], [geom_treebar_subgroup_border()].
+#' @returns A [ggplot2::layer()].
 #' @examples
 #' library(ggplot2)
 #' ggplot(diamonds, aes(y = clarity, fill = cut, subgroup = color)) +

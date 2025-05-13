@@ -60,6 +60,7 @@
 #' groupwise proportion
 #'
 #' @seealso [geom_treebar_subgroup_border()], [geom_treebar_subgroup_text()].
+#' @returns A [ggplot2::layer()].
 #'
 #' @examples
 #' library(ggplot2)
