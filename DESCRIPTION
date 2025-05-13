@@ -5,10 +5,11 @@ Authors@R:
     person("Harry", "Thompson", , "harry@mayesfield.uk", role = c("aut", "cre"))
 Description: 'ggplot2' geoms analogous to 'geom_col()' and 'geom_bar()' that
     allow for treemaps using 'treemapify' nested within each bar segment.
+    Also provides geometries for subgroup bordering and text annotation.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Imports:
   grid,
   ggplot2,
