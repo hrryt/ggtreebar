@@ -18,7 +18,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Harry Thompson \email{harry@mayesfield.uk}
+\strong{Maintainer}: Harry Thompson \email{harry@mayesfield.uk} [copyright holder]
 
 }
 \keyword{internal}
