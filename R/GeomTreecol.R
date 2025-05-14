@@ -50,6 +50,10 @@ draw_panel <- function(data, panel_params, coord, lineend = "butt",
   treemaps
 }
 
+#' @name geom_treebar
+#' @usage NULL
+#' @format NULL
+#' @export
 GeomTreecol <- ggplot2::ggproto(
   "GeomTreecol", ggplot2::GeomCol,
   required_aes = c("x", "y"),

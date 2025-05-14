@@ -63,6 +63,10 @@ draw_panel_subgroup_border <- function(
   treemaps
 }
 
+#' @name geom_treebar_subgroup_border
+#' @usage NULL
+#' @format NULL
+#' @export
 GeomTreecolSubgroupBorder <- ggplot2::ggproto(
   "GeomTreecolSubgroupBorder", GeomTreecol,
   default_aes = ggplot2::aes(

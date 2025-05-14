@@ -79,6 +79,10 @@ draw_panel_subgroup_text <- function(
   treemaps
 }
 
+#' @name geom_treebar_subgroup_text
+#' @usage NULL
+#' @format NULL
+#' @export
 GeomTreecolSubgroupText <- ggplot2::ggproto(
   "GeomTreecolSubgroupText", GeomTreecol,
   default_aes = ggplot2::aes(
